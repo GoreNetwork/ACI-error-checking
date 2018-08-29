@@ -2,6 +2,10 @@
 Connects to the ACI's API finds ports with an error # higher than what is listed, then pulls LLDP data down and reports on what it is seeing.
 Then it will email the results to a list of people who should resolve the issues.
 
+The main thing you'll need to do is edit ACI_sites in ACI_functions.py to reflect what ACIs you'll be logging into
+
+Also for our ACI you have to prepend some stuff onto your username.  That's also in ACI_functions.py.
+
 The email should look like this:
 
 ----------------------------
